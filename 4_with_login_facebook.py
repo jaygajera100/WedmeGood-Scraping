@@ -14,7 +14,6 @@ from my_config import (
     set_ignore_certificate_error,
     set_browser_as_incognito,
     set_automation_as_head_less,
-    get_soup_data,
     BASE_URLS,
 )
 
