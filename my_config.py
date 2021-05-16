@@ -1,5 +1,4 @@
 from selenium import webdriver
-from bs4 import BeautifulSoup
 import requests
 
 # According to City wise
@@ -10,10 +9,6 @@ CITY_NAMES = [x.strip() for x in city_names]
 BASE_URLS = [
     f'https://www.wedmegood.com/vendors/{x}/wedding-photographers/' for x in city_names]
 
-
-def get_soup_data(BASE_URLS):
-    respond = requests.get(BASE_URLS)
-    return BeautifulSoup(respond.content, 'html.parser')
 
 
 def get_chrome_web_driver(options):
