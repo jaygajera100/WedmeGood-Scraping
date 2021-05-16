@@ -8,6 +8,6 @@ Forth step : After Getting the facebook id, from this ids we got the phone numbe
 Fifth step : Now this whole csv file to excel file in just click.
 
 Library Used in This whole project : 
-Selenium Webdriver - For Automation
-Requests - For getting website
+Selenium Webdriver - For Automation,
+Requests - For getting website,
 Pandas - For data manipulation and transformation files
